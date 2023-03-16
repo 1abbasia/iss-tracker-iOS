@@ -14,6 +14,12 @@
 		3F87244A29C3A84300874E24 /* iss_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87244929C3A84300874E24 /* iss_trackerTests.swift */; };
 		3F87245429C3A84300874E24 /* iss_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87245329C3A84300874E24 /* iss_trackerUITests.swift */; };
 		3F87245629C3A84300874E24 /* iss_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87245529C3A84300874E24 /* iss_trackerUITestsLaunchTests.swift */; };
+		3F87246429C3C49B00874E24 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246329C3C49B00874E24 /* model.swift */; };
+		3F87246529C3C49B00874E24 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246329C3C49B00874E24 /* model.swift */; };
+		3F87246629C3C49B00874E24 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246329C3C49B00874E24 /* model.swift */; };
+		3F87246829C3C88500874E24 /* networkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246729C3C88500874E24 /* networkManager.swift */; };
+		3F87246929C3C88500874E24 /* networkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246729C3C88500874E24 /* networkManager.swift */; };
+		3F87246A29C3C88500874E24 /* networkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87246729C3C88500874E24 /* networkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 		3F87244F29C3A84300874E24 /* iss-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iss-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F87245329C3A84300874E24 /* iss_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iss_trackerUITests.swift; sourceTree = "<group>"; };
 		3F87245529C3A84300874E24 /* iss_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iss_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F87246329C3C49B00874E24 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		3F87246729C3C88500874E24 /* networkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,12 @@
 		3F87243729C3A84000874E24 /* iss-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				3F87246229C3C47100874E24 /* models */,
 				3F87243829C3A84000874E24 /* iss_trackerApp.swift */,
-				3F87243A29C3A84000874E24 /* ContentView.swift */,
 				3F87243C29C3A84300874E24 /* Assets.xcassets */,
+				3F87243A29C3A84000874E24 /* ContentView.swift */,
 				3F87243E29C3A84300874E24 /* Preview Content */,
+				3F87246729C3C88500874E24 /* networkManager.swift */,
 			);
 			path = "iss-tracker";
 			sourceTree = "<group>";
@@ -125,6 +135,14 @@
 				3F87245529C3A84300874E24 /* iss_trackerUITestsLaunchTests.swift */,
 			);
 			path = "iss-trackerUITests";
+			sourceTree = "<group>";
+		};
+		3F87246229C3C47100874E24 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3F87246329C3C49B00874E24 /* model.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F87246829C3C88500874E24 /* networkManager.swift in Sources */,
 				3F87243B29C3A84000874E24 /* ContentView.swift in Sources */,
+				3F87246429C3C49B00874E24 /* model.swift in Sources */,
 				3F87243929C3A84000874E24 /* iss_trackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F87246929C3C88500874E24 /* networkManager.swift in Sources */,
 				3F87244A29C3A84300874E24 /* iss_trackerTests.swift in Sources */,
+				3F87246529C3C49B00874E24 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F87246A29C3C88500874E24 /* networkManager.swift in Sources */,
 				3F87245429C3A84300874E24 /* iss_trackerUITests.swift in Sources */,
+				3F87246629C3C49B00874E24 /* model.swift in Sources */,
 				3F87245629C3A84300874E24 /* iss_trackerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

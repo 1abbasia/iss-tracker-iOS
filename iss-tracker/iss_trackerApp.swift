@@ -9,15 +9,16 @@ import SwiftUI
 
 @main
 struct iss_trackerApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(test: <#String#>)
+            ContentView(test: "yooo")
         }
     }
 }
 
 struct Previews_iss_trackerApp_Previews: PreviewProvider {
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        ContentView(test: "yooo")
     }
 }
